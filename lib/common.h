@@ -11,5 +11,11 @@
 #include <errno.h>
 
 
+
+
 size_t readn(int fd, void *vptr, size_t n);
 void error(int status, int err, char *fmt, ...);
+
+
+#define SERV_PORT 43211
+#define MAX_LINE 4096

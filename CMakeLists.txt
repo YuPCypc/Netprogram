@@ -13,7 +13,8 @@ include_directories(${PROJECT_SOURCE_DIR})
 
 
 add_subdirectory(lib/)
-add_subdirectory(src/ch1/)
+add_subdirectory(src/ch1)
 add_subdirectory(src/ch2)
+add_subdirectory(src/ch3)
 
 
