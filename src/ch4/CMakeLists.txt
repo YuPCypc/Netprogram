@@ -1,0 +1,11 @@
+add_executable(unixstreamserver unixstreamserver.c)
+target_link_libraries(unixstreamserver Netprogram)
+
+add_executable(unixstreamclient unixstreamclient.c)
+target_link_libraries(unixstreamclient Netprogram)
+
+add_executable(unixdataserver unixdataserver.c)
+target_link_libraries(unixdataserver Netprogram)
+
+add_executable(unixdataclient unixdataclient.c)
+target_link_libraries(unixdataclient Netprogram)

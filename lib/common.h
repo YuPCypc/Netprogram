@@ -9,6 +9,7 @@
 #include <sys/_types/_socklen_t.h>
 #include <unistd.h>
 #include <errno.h>
+#include <sys/un.h>
 
 
 
@@ -19,3 +20,5 @@ void error(int status, int err, char *fmt, ...);
 
 #define SERV_PORT 43211
 #define MAX_LINE 4096
+#define LISTENQ 1024
+#define BUFFER_SIZE 4096
