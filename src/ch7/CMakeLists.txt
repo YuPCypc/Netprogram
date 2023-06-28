@@ -1,0 +1,6 @@
+add_executable(udpconnectclient udpconnectclient.c)
+target_link_libraries(udpconnectclient Netprogram)
+
+add_executable(udpconnectserver udpconnectserver.c)
+target_link_libraries(udpconnectserver Netprogram)
+
