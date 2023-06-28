@@ -20,5 +20,6 @@ add_subdirectory(src/ch4)
 add_subdirectory(src/ch5)
 add_subdirectory(src/ch6)
 add_subdirectory(src/ch7)
+add_subdirectory(src/ch8)
 
 

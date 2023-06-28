@@ -1,0 +1,2 @@
+add_executable(addressused addressused.c)
+target_link_libraries(addressused Netprogram)
