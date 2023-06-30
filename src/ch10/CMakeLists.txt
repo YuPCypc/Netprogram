@@ -1,0 +1,5 @@
+add_executable(reliableclient reliableclient.c)
+target_link_libraries(reliableclient Netprogram)
+
+add_executable(reliableserver reliableserver.c)
+target_link_libraries(reliableserver Netprogram)
