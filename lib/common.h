@@ -14,7 +14,8 @@
 #include <sys/signal.h>
 
 
-size_t readn(int fd, void *vptr, size_t n);
+int readn(int fd, void *vptr, size_t n);
+int read_msg(int fd,void *buf,size_t n);
 void error(int status, int err, char *fmt, ...);
 
 
