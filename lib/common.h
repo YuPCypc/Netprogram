@@ -13,6 +13,7 @@
 #include <sys/_types/_timeval.h>
 #include <sys/signal.h>
 #include <poll.h>
+#include <fcntl.h>
 
 
 int readn(int fd, void *vptr, size_t n);
