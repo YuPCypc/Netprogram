@@ -1,8 +1,4 @@
 #include "lib/common.h"
-#include <malloc/_malloc.h>
-#include <netinet/in.h>
-#include <stdio.h>
-#include <sys/socket.h>
 
 int main(int argc,char** argv){
     if (argc != 2) {

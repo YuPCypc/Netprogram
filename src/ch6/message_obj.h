@@ -1,9 +1,8 @@
 #ifndef MY_MESSAGE_OBJ
 #define MY_MESSAGE_OBJ
 
-#include <sys/_types/_u_int32_t.h>
 struct message_obj{
-    u_int32_t type;
+    size_t type;
     char data[1024];
 };
 

@@ -1,0 +1,2 @@
+add_executable(epollserver epollserver.c)
+target_link_libraries(epollserver Netprogram)
